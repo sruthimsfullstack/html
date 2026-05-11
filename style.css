@@ -1,0 +1,14 @@
+#top-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.active {
+    color: green;
+    font-weight: bold;
+}
+
+[title] {
+    cursor: help;
+    border-bottom: 1px dashed gray;
+}
