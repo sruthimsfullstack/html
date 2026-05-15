@@ -5,49 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            font-size: large;
+        }
         .webheader{
             background-color: black;
-            padding: 50px;
+            padding: 5px;
+            text-align: center;
         }
+        .webheader h1, 
+        .webheader a
+        .webfooter{
+            color: white;
+        }
+        ul li{
+            display: inline;
+            margin: 10px;
+        }
+        .webheader{
+            text-align: right;
+        }
+         .webheader h1{
+            text-align: center;
+         }
+       
+        
         .container{
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
             gap: 10px;
+            border-top: 5px solid brown;
         }
         .left-side{
             background-color: lightgrey;
+            padding: 20px;
         }
         .main{
             background-color: darkgray;
-            padding: 400px;
+            padding: 30px;
         }
          .right-side{
             background-color: lightgrey;
+             padding: 20px;
         }
             .footer{
-                 background-color: black;
-            padding: 15px;
+                background-color: black;
+               padding: 15px;
+               text-align: center;
+               color: white;
             }
 
     </style>
 </head>
 <body>
    <div class="webheader">
-
+    <header>
+        <h1>welcome to madan's html training session</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">course</a></li>
+            <li><a href="">careers</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </nav>
    </div>
    <div class="container">
     <div class="left-side">
-
+        <aside>
+            <strong>this is the left side area</strong>
+            <h2>related elements</h2>
+            <ul>
+                <li><a href="https://www.google.com/">google</a></li>
+                 <li><a href="https://www.wikipedia.com/">google</a></li>
+            </ul>
+        </aside>
     </div>
      <div class="main">
-
+        <main>
+            <section>
+                <h2>about us</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the
+                     1500s, when an unknown printer took a galley of type and scrambled it 
+                   
+                </p>
+                <p>
+                     to make a type specimen book. It has survived not only five centuries, but
+                     also the leap into electronic typesetting, remaining essentially unchanged.
+                      It was popularised in the 1960s with the release of Letraset sheets containing 
+                     top publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </section>
+            <section>
+                <h2>services</h2>
+                <p>
+                   to make a type specimen book. It has survived not only five centuries, but
+                     also the leap into electronic typesetting,  
+                </p>
+                 <p>
+                   to make a type specimen book. It has survived not only five centuries, but
+                     also the leap into electronic typesetting,  
+                </p>
+                 <p>
+                   to make a type specimen book. It has survived not only five centuries, but
+                     also the leap into electronic typesetting,  
+                </p>
+            </section>
+            <article>
+                <h2>cricket blog post: the legecy of ms dhoni</h2>
+                 <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the
+                     1500s, when an unknown printer took a galley of type and scrambled it 
+                   
+                </p>
+                <p>
+                     to make a type specimen book. It has survived not only five centuries, but
+                     also the leap into electronic typesetting, remaining essentially unchanged.
+                      It was popularised in the 1960s with the release of Letraset sheets containing 
+                     top publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </article>
+        </main>
     </div>
      <div class="right-side">
-
+         <aside>
+            <strong>this is the right side area</strong>
+            <h2>related images</h2>
+            <figure>
+                <img src="/pexels-sudhirsangwan-34762937.jpg" width="200">
+                <figcaption>microsoft employees</figcaption>
+            </figure>
+        </aside>
    </div> 
     </div>
     <div class="footer">
-
+        <footer>
+            <address>
+                <p>2024 html learners technology</p>
+                contact us info@gmail.com
+            </address>
+        </footer>
     </div>
 
 </body>
