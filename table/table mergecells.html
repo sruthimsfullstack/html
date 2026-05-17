@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table without styling</title>
+    <style>
+        table, th,td{
+            border: 1px solid red;
+            border-spacing: 0px;
+        }
+        tbody{
+            background-color: black;
+            color: white;
+        }
+        thead{
+            background-color: yellow;
+        }
+        tfoot{
+            text-align: right;
+        }
+        caption{
+            color: blue;
+        }
+        td,th{
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+   <h1>table with styling</h1> 
+   <table>
+    <caption>table demo</caption>
+    <thead>
+        <tr>
+            <th>column1</th>
+            <th>column2</th>
+            <th>column3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">data col-row1</td>
+            <td>data co2-row1</td>
+            <td>data co3-row1</td>
+        </tr>
+         <tr>
+            <!-- <td>data col-row2</td> -->
+            <td>data co2-row2</td>
+            <td>data co3-row2</td>
+        </tr>
+         <tr>
+            <td>data col-row3</td>
+            <td colspan="2">data co2-row3</td>
+            <!-- <td>data co3-row3</td> -->
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>total 1</td>
+            <td>total 2</td>
+            <td>total 3</td>
+        </tr>
+    </tfoot>
+   </table>
+</body>
+</html>
